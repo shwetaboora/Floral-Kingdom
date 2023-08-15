@@ -1,0 +1,49 @@
+<div style="height: 100%;">
+    <app-navbar></app-navbar>
+    <div class="Flowers">
+        <div class="image-container">
+            <img src="https://images.ctfassets.net/ztm44xofsurz/ykhf2xQFJB0q76Hg1AwG5/5cd6ced25fdc9cd09c28f7e0f17ef099/4332-PFSite_SpringRefresh_Birthday_HeroDesktop_____2.jpg?w=1920&fm=webp&q=70"
+                alt="image" class="img-fluid">
+            <button class="image-button"><b><a href="#" class="nav-link active" routerLink="/flower">Shop
+                        Now</a></b></button>
+
+            <span class="img-text">
+                <h1>The Floral Kingdom</h1>
+                <h2>One-stop shopping for all of your floral needs...</h2>
+            </span>
+        </div>
+
+        <div style=" padding: 20px 10px;">
+
+
+            <div id="myFlower">
+                <h3> Hello Everyone Welcome to the world of flowers </h3>
+                <br>
+
+            </div>
+            <div class="slider">
+                <ng-image-slider [images]="imgCollection" #nav class="slider"></ng-image-slider>
+            </div>
+
+            <!--  <div class="list">
+            <h3>flowers list</h3>-->
+
+            <!--  <button  (click)="isShowing=!isShowing" [disabled] = "isDisabled" class="show">
+              <ng-container  *ngIf="!isShowing">Show flowers </ng-container>
+              <ng-container  *ngIf="isShowing">Hide flowers </ng-container >
+                <input type="text" [(ngModel)]="myName"> 
+            </button>-->
+            <!--   <div>{{myName}}</div>
+                
+                <ul *ngIf="isShowing" >
+                    
+                    <ng-container *ngFor="let singleflower of flowers;let i=index">
+                        <app-flower [flower] = "singleflower"></app-flower>
+                    </ng-container>
+                    
+                </ul>
+            </div>-->
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

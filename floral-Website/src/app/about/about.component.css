@@ -1,0 +1,26 @@
+
+.part2{
+
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+}
+.part2 h2{
+    color: purple;
+    padding-top: 90px;
+}
+
+.part2 img{
+    border: 2px solid black;
+
+}
+
+.part2 p{
+    color: purple;
+    padding-top:10px;
+    font-size: medium;
+}
