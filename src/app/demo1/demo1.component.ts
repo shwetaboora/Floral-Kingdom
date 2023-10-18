@@ -25,8 +25,8 @@ export class Demo1Component implements OnInit {
   }
   imgCollection: Array<object> = [
     {
-      image: 'assets/bachelors.jpg',
-      thumbImage: 'assets/bachelors.jpg',
+      image: '/assets/bachelors.jpg',
+      thumbImage: '/assets/bachelors.jpg',
       alt: 'Bachelors ',
       title: 'Bachelors '
     }, {

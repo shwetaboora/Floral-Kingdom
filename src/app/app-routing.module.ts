@@ -14,25 +14,25 @@ const routes: Routes = [
       [{
         name: 'Rose',
         price: 50,
-        image: "assets/rose.jpg",
+        image: 'assets/rose.jpg',
 
       },
       {
         name: 'Dahlia',
         price: 80,
-        image: "assets/Dahlia.jpg",
+        image: 'assets/Dahlia.jpg',
 
       },
       {
         name: 'Tulip',
         price: 40,
-        image: "assets/tulip.jpg",
+        image: 'assets/tulip.jpg',
 
       },
       {
         name: 'Orchid',
         price: 150,
-        image: "assets/orchid.jpg",
+        image: 'assets/orchid.jpg',
       },
       {
         name: 'Gardenia',
