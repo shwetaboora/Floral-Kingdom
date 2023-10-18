@@ -14,7 +14,7 @@ const routes: Routes = [
       [{
         name: 'Rose',
         price: 50,
-        image: "/assets/rose.jpg",
+        image: "./assets/rose.jpg",
 
       },
       {
