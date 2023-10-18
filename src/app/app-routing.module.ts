@@ -14,80 +14,80 @@ const routes: Routes = [
       [{
         name: 'Rose',
         price: 50,
-        image: "/assets/rose.jpg",
+        image: "assets/rose.jpg",
 
       },
       {
         name: 'Dahlia',
         price: 80,
-        image: "/assets/Dahlia.jpg",
+        image: "assets/Dahlia.jpg",
 
       },
       {
         name: 'Tulip',
         price: 40,
-        image: "/assets/tulip.jpg",
+        image: "assets/tulip.jpg",
 
       },
       {
         name: 'Orchid',
         price: 150,
-        image: "/assets/orchid.jpg",
+        image: "assets/orchid.jpg",
       },
       {
         name: 'Gardenia',
         price: 50,
-        image: "/assets/gardenia.jpg"
+        image: "assets/gardenia.jpg"
 
       },
       {
         name: 'Plumeria',
         price: 80,
-        image: "/assets/plumeria.jpg",
+        image: "assets/plumeria.jpg",
 
       },
       {
         name: 'Hyacinth',
         price: 40,
-        image: "/assets/hyacinth.jpg"
+        image: "assets/hyacinth.jpg"
       },
       {
         name: 'Marigold',
         price: 150,
-        image: "/assets/marigold.jpg",
+        image: "assets/marigold.jpg",
       },
       {
         name: 'Bachelors',
         price: 100,
-        image: "/assets/bachelors.jpg",
+        image: "assets/bachelors.jpg",
       },
       {
-        image: "/assets/camellia.jpg",
+        image: "assets/camellia.jpg",
         name: 'Camellia',
         price: 230,
       },
       {
-        image: "/assets/capeleadwort.jpg",
+        image: "assets/capeleadwort.jpg",
         name: 'Cape Leadwort',
         price: 210,
       },
       {
-        image: "/assets/chrysanthemum.jpg",
+        image: "assets/chrysanthemum.jpg",
         name: 'Chrysanthemum ',
         price: 190,
       },
       {
-        image: "/assets/bluewaterlily.jpg",
+        image: "assets/bluewaterlily.jpg",
         name: 'Blue Water Lily',
         price: 200,
       },
       {
-        image: "/assets/englishrose.jpg",
+        image: "assets/englishrose.jpg",
         name: 'English Rose ',
         price: 250,
       },
       {
-        image: "/assets/africandaisy.jpg",
+        image: "assets/africandaisy.jpg",
         name: 'African Daisy ',
         price: 210,
       }
